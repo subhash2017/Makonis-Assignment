@@ -1,0 +1,20 @@
+<form [formGroup] = "employeeForm" (ngSubmit) = "onFormSubmit()" >
+ 
+    <p>
+      <label for="firstname">First Name </label>
+      <input type="text" id="firstname" name="firstname" formControlName="firstname">
+    </p>
+   
+    <p>
+      <label for="lastname">Last Name </label>
+      <input type="text" id="lastname" name="lastname" formControlName="lastname">
+    </p>
+    
+    <p>
+      <button type="submit">Submit</button>
+    </p>
+   
+  </form>
+   
+  
+  
